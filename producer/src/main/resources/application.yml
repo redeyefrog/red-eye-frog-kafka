@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: info
+    org.springframework: info
+    org.redeyefrog: debug
+  pattern:
+    console: "%red(%d{yyyy-MM-dd HH:mm:ss}) %yellow([%thread]) %highlight(%-5level) %logger:%L - %green(%msg%n)"
+
+spring:
+  profiles:
+    active: local
